@@ -118,7 +118,7 @@ namespace IS1_20_DodardzhonovKK
 
         private void Authh_Load(object sender, EventArgs e)
         {
-            //Инициализируем соединение с подходящей строкой
+                //Инициализируем соединение с подходящей строкой
             conn = new MySqlConnection(connStr);
         }
     }

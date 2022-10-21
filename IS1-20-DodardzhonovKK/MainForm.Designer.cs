@@ -35,7 +35,7 @@ namespace IS1_20_DodardzhonovKK
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(13, 113);
+            this.metroLabel1.Location = new System.Drawing.Point(13, 102);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(179, 20);
             this.metroLabel1.TabIndex = 0;
@@ -45,10 +45,9 @@ namespace IS1_20_DodardzhonovKK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(555, 315);
+            this.ClientSize = new System.Drawing.Size(232, 250);
             this.Controls.Add(this.metroLabel1);
             this.Name = "MainForm";
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
