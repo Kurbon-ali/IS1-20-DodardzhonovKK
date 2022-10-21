@@ -9,6 +9,7 @@ namespace IS1_20_DodardzhonovKK
     //Класс для передачи значений между формами
     static class SomeClass
     {
+        //оfgdgdgd
         //Статичное поле, которое хранит значение для передачи его между формами
         public static string variable_class;
         //Статичное поле, которое хранит значения ID добавленного клиента на Form15-addClient

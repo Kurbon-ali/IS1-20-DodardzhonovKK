@@ -68,11 +68,6 @@ namespace IS1_20_DodardzhonovKK
             InitializeComponent();
         }
 
-       
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
 
         private void metroButton1_Click(object sender, EventArgs e)
