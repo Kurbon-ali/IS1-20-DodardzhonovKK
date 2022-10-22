@@ -38,6 +38,7 @@ namespace IS1_20_DodardzhonovKK
                 metroLabel1.Text = Auth.auth_id;
                 metroLabel1.Text = Auth.auth_fio;
                 metroLabel1.Text = "Успешно!";
+
                 //Красим текст в label в зелёный цвет
 
             }
@@ -47,6 +48,16 @@ namespace IS1_20_DodardzhonovKK
                 //Закрываем форму
                 this.Close();
             }
+        }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

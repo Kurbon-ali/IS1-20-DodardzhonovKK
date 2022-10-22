@@ -16,7 +16,8 @@ namespace IS1_20_DodardzhonovKK
     {
 
         // строка подключения к БД
-        string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+        //string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+        string connStr = "server=10.90.12.110;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
         //Переменная соединения
         MySqlConnection conn;
         //Логин и пароль к данной форме Вы сможете посмотреть в БД db_test таблице t_user
@@ -42,7 +43,7 @@ namespace IS1_20_DodardzhonovKK
             // устанавливаем соединение с БД
             conn.Open();
             // запрос
-            string sql = $"SELECT fio_empl, email_empl, id_empl, login FROM Emploee WHERE loginUser='{login_user}'";
+            string sql = $"SELECT login, password FROM Emploee WHERE login='{login_user}'";
             // объект для выполнения SQL-запроса
             MySqlCommand command = new MySqlCommand(sql, conn);
             // объект для чтения ответа сервера
@@ -61,7 +62,7 @@ namespace IS1_20_DodardzhonovKK
         }
 
         //Отмена авторизации. Закрытие формы
-
+        
 
         public Authh()
         {
@@ -87,7 +88,7 @@ namespace IS1_20_DodardzhonovKK
             command.Parameters.Add("@up", MySqlDbType.VarChar, 25);
             //Присваиваем параметрам значение
             command.Parameters["@un"].Value = metroTextBox1.Text;
-            command.Parameters["@up"].Value = sha256(metroTextBox1.Text);
+            command.Parameters["@up"].Value = sha256(metroTextBox2.Text);
             //Заносим команду в адаптер
             adapter.SelectCommand = command;
             //Заполняем таблицу
@@ -95,6 +96,7 @@ namespace IS1_20_DodardzhonovKK
             //Закрываем соединение
             conn.Close();
             //Если вернулась больше 0 строк, значит такой пользователь существует
+            
             if (table.Rows.Count > 0)
             {
                 //Присваеваем глобальный признак авторизации
