@@ -34,10 +34,10 @@ namespace IS1_20_DodardzhonovKK
                 //Отображаем рабочую форму
                 this.Show();
                 //Вытаскиваем из класса поля в label'ы
-                metroLabel1.ForeColor = Color.GreenYellow;
-                metroLabel1.Text = Auth.auth_id;
-                metroLabel1.Text = Auth.auth_fio;
-                metroLabel1.Text = "Успешно!";
+                label1.ForeColor = Color.GreenYellow;
+                label1.Text = Auth.auth_id;
+                label1.Text = Auth.auth_fio;
+                label1.Text = "Успешная авторизация!";
 
                 //Красим текст в label в зелёный цвет
 
@@ -50,12 +50,14 @@ namespace IS1_20_DodardzhonovKK
             }
         }
 
-        private void metroLabel1_Click(object sender, EventArgs e)
+
+
+        private void metroButton1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
