@@ -14,10 +14,15 @@ namespace IS1_20_DodardzhonovKK
     public partial class Authh : MetroFramework.Forms.MetroForm
 
     {
+
+
         //
         // строка подключения к БД
+
         string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+
         //string connStr = "server=10.90.12.110;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+
         //Переменная соединения
         MySqlConnection conn;
         //Логин и пароль к данной форме Вы сможете посмотреть в БД db_test таблице t_user
@@ -67,6 +72,14 @@ namespace IS1_20_DodardzhonovKK
         public Authh()
         {
             InitializeComponent();
+
+            // Делаем обычный стиль
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            // Убираем кнопки свернуть, развернуть, закрыть
+            this.ControlBox = false;
+            // Убираем заголовок
+            this.Text = "";
+
         }
 
 
@@ -122,6 +135,11 @@ namespace IS1_20_DodardzhonovKK
         {
                 //Инициализируем соединение с подходящей строкой
             conn = new MySqlConnection(connStr);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

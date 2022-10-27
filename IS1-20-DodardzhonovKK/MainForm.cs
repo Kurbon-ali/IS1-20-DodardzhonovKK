@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using MySql.Data.MySqlClient;
 
 
@@ -15,9 +16,18 @@ namespace IS1_20_DodardzhonovKK
     public partial class MainForm : MetroFramework.Forms.MetroForm
 
     {
+        
         public MainForm()
         {
             InitializeComponent();
+
+            // Делаем обычный стиль.
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            // Убираем кнопки свернуть, развернуть, закрыть.
+            this.ControlBox = false;
+            // Убираем заголовок.
+            this.Text = "";
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -61,5 +71,20 @@ namespace IS1_20_DodardzhonovKK
         {
 
         }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            //Сокрытие текущей формы
+            this.Hide();
+            //Инициализируем и вызываем форму диалога авторизации
+            Authh f = new Authh ();
+            //Вызов формы в режиме диалога
+            f.ShowDialog();
+
+            this.Close();
+        }
+
+
+
     }
 }

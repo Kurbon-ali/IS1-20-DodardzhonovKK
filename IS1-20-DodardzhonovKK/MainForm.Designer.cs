@@ -80,11 +80,12 @@ namespace IS1_20_DodardzhonovKK
             this.metroButton4.TabIndex = 4;
             this.metroButton4.Text = "Выход из профиля";
             this.metroButton4.UseSelectable = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(5, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(5, 24);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(136, 118);
