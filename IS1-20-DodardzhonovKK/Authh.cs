@@ -19,9 +19,9 @@ namespace IS1_20_DodardzhonovKK
         //
         // строка подключения к БД
 
-        string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+        //string connStr = "server=chuc.caseum.ru;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
 
-        //string connStr = "server=10.90.12.110;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
+        string connStr = "server=10.90.12.110;port=33333;user=st_1_20_13;database=is_1_20_st13_KURS;password=31485311;";
 
         //Переменная соединения
         MySqlConnection conn;
@@ -48,7 +48,7 @@ namespace IS1_20_DodardzhonovKK
             // устанавливаем соединение с БД
             conn.Open();
             // запрос
-            string sql = $"SELECT login, password FROM Emploee WHERE login='{login_user}'";
+            string sql = $"SELECT id_empl, fio_empl, login FROM Emploee WHERE login='{login_user}'";
             // объект для выполнения SQL-запроса
             MySqlCommand command = new MySqlCommand(sql, conn);
             // объект для чтения ответа сервера
@@ -140,6 +140,16 @@ namespace IS1_20_DodardzhonovKK
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void metroTextBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTextBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

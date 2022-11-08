@@ -47,7 +47,7 @@ namespace IS1_20_DodardzhonovKK
                 label1.ForeColor = Color.GreenYellow;
                 label1.Text = Auth.auth_id;
                 label1.Text = Auth.auth_fio;
-                label1.Text = "Успешная авторизация!";
+                label1.Text = $"Успешная авторизация! \nЗдравствуйте, {Auth.auth_fio} ";
 
                 //Красим текст в label в зелёный цвет
 
@@ -84,6 +84,19 @@ namespace IS1_20_DodardzhonovKK
             this.Close();
         }
 
+
+
+
+
+        private void metroButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
     }
