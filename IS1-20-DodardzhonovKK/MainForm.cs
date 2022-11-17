@@ -56,7 +56,7 @@ namespace IS1_20_DodardzhonovKK
             else
             {
                 //Закрываем форму
-                this.Close();
+                Application.Exit();
             }
         }
 

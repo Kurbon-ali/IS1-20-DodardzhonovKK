@@ -99,6 +99,12 @@
     <Compile Include="Authh.Designer.cs">
       <DependentUpon>Authh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

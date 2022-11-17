@@ -42,19 +42,17 @@ namespace IS1_20_DodardzhonovKK
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(63, 112);
+            this.metroButton1.Location = new System.Drawing.Point(95, 131);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(127, 33);
             this.metroButton1.TabIndex = 1;
@@ -64,7 +62,7 @@ namespace IS1_20_DodardzhonovKK
             // 
             // metroButton2
             // 
-            this.metroButton2.Location = new System.Drawing.Point(63, 170);
+            this.metroButton2.Location = new System.Drawing.Point(95, 189);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(127, 33);
             this.metroButton2.TabIndex = 2;
@@ -74,7 +72,7 @@ namespace IS1_20_DodardzhonovKK
             // 
             // metroButton3
             // 
-            this.metroButton3.Location = new System.Drawing.Point(63, 280);
+            this.metroButton3.Location = new System.Drawing.Point(95, 299);
             this.metroButton3.Name = "metroButton3";
             this.metroButton3.Size = new System.Drawing.Size(127, 33);
             this.metroButton3.TabIndex = 3;
@@ -83,7 +81,7 @@ namespace IS1_20_DodardzhonovKK
             // 
             // metroButton4
             // 
-            this.metroButton4.Location = new System.Drawing.Point(63, 222);
+            this.metroButton4.Location = new System.Drawing.Point(95, 241);
             this.metroButton4.Name = "metroButton4";
             this.metroButton4.Size = new System.Drawing.Size(127, 33);
             this.metroButton4.TabIndex = 4;
@@ -94,7 +92,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 10);
+            this.pictureBox1.Location = new System.Drawing.Point(71, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(101, 96);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -104,7 +102,7 @@ namespace IS1_20_DodardzhonovKK
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 329);
+            this.label1.Location = new System.Drawing.Point(36, 348);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 13);
@@ -115,8 +113,10 @@ namespace IS1_20_DodardzhonovKK
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(186, 23);
+            this.label2.Location = new System.Drawing.Point(245, 23);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(172, 28);
@@ -126,7 +126,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(7, 112);
+            this.pictureBox2.Location = new System.Drawing.Point(39, 131);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -137,7 +137,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(7, 170);
+            this.pictureBox3.Location = new System.Drawing.Point(39, 189);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 33);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +147,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(7, 222);
+            this.pictureBox4.Location = new System.Drawing.Point(39, 241);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 33);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -157,7 +157,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(7, 280);
+            this.pictureBox5.Location = new System.Drawing.Point(39, 299);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(50, 33);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -167,28 +167,18 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(196, 63);
+            this.pictureBox6.Location = new System.Drawing.Point(323, 114);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(311, 262);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(-1, -2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(515, 360);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 15;
-            this.pictureBox7.TabStop = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 361);
+            this.ClientSize = new System.Drawing.Size(667, 395);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -201,7 +191,6 @@ namespace IS1_20_DodardzhonovKK
             this.Controls.Add(this.metroButton3);
             this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.pictureBox7);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
             this.Padding = new System.Windows.Forms.Padding(15, 60, 15, 16);
@@ -212,7 +201,6 @@ namespace IS1_20_DodardzhonovKK
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,7 +219,6 @@ namespace IS1_20_DodardzhonovKK
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }
 
