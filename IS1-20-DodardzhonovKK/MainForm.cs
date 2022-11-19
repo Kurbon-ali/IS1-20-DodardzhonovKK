@@ -98,6 +98,18 @@ namespace IS1_20_DodardzhonovKK
 
         }
 
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
 
+            //Сокрытие текущей формы
+            this.Hide();
+            //Инициализируем и вызываем форму диалога авторизации
+            Employee a = new Employee();
+            //Вызов формы в режиме диалога
+            a.ShowDialog();
+
+            this.Close();
+
+        }
     }
 }

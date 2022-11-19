@@ -76,7 +76,7 @@ namespace IS1_20_DodardzhonovKK
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(290, 59);
+            this.label1.Location = new System.Drawing.Point(288, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(167, 28);
             this.label1.TabIndex = 4;
@@ -85,7 +85,7 @@ namespace IS1_20_DodardzhonovKK
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(21, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(38, 33);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(91, 96);
@@ -123,6 +123,7 @@ namespace IS1_20_DodardzhonovKK
             this.textBox1.Size = new System.Drawing.Size(278, 32);
             this.textBox1.TabIndex = 11;
             this.textBox1.Text = "Username";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
             // 
             // textBox2
@@ -132,9 +133,11 @@ namespace IS1_20_DodardzhonovKK
             this.textBox2.Location = new System.Drawing.Point(246, 244);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '•';
             this.textBox2.Size = new System.Drawing.Size(278, 32);
             this.textBox2.TabIndex = 12;
             this.textBox2.Text = "Password";
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
             // 
             // Authh

@@ -85,7 +85,7 @@ namespace IS1_20_DodardzhonovKK
 
         }
 
-
+        
 
         private void metroButton1_Click(object sender, EventArgs e)
         {
@@ -166,6 +166,16 @@ namespace IS1_20_DodardzhonovKK
         private void textBox2_Enter(object sender, EventArgs e)
         {
             textBox2.Clear();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

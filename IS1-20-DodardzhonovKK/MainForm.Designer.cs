@@ -78,6 +78,7 @@ namespace IS1_20_DodardzhonovKK
             this.metroButton3.TabIndex = 3;
             this.metroButton3.Text = "Сотрудники";
             this.metroButton3.UseSelectable = true;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // metroButton4
             // 
